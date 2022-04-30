@@ -1,0 +1,49 @@
+body{
+    background: black;
+}
+.alinear_toro{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+
+}
+.alinear_btc{
+    position: absolute;
+    left: 800px;
+    bottom: 300px;
+    width: 50px;
+    height: 50px;
+
+}
+.alineal_ethe{
+    position: absolute;
+    left: 1000px;
+    bottom: 400px;
+    width: 50px;
+    height: 50px;
+
+
+}
+.alinear_ltc{
+    position: absolute;
+    left: 550px;
+    bottom: 400px;
+    width: 50px;
+    height: 50px;
+
+}
+.registro2{
+    font-family: 'Playfair Display', serif;
+
+}
+a:hover{
+    font-size: 1.4em;
+}
+a:link, a:visited{
+    color: white;
+}
+
+a:active{
+    font-weight: bold;
+}
