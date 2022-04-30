@@ -25,4 +25,7 @@ a:active{
 .registro{
     font-family: 'Playfair Display', serif;
     margin: 15px 250px 0px;
+    font-size: 35px;
+    text-decoration-none;
 }
+
