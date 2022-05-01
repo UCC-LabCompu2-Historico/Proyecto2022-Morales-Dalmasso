@@ -1,5 +1,5 @@
-# proyecto2022
-CRIPTO COUNT de Proyecto Lab de Compu II - 2022 - Dalmassso Bautista - Morales Antonio
+# CRIPTO COUNT
+Proyecto Lab de Compu II - 2022 - Dalmassso Bautista - Morales Antonio
 
 ## Requisitos del Primer Parcial
 
