@@ -2,15 +2,21 @@
 
 Link al sitio: [CRIPTO COUNT](https://ucc-labcompu2.github.io/Proyecto2022-Morales-Dalmasso/Principal.html)
 
+###Autores
+* Morales Antonio
+* Dalmasso Bauti
+##Tecnologias Usadas
+* HTML5
+* CSS
 ## Requisitos del Primer Parcial
 
 ### Sobre el Repositorio
 - [x] El proyecto debe estar subido al repositorio adecuado "Proyecto2022-ApellidoAlumno1-ApellidoAlumno2"
 - [x] Modificar el Readme.MD y colocar información del proyecto/página (mínimamente: título del proyecto, autores con nombre y apellido, link de gh-pages, contenido de la página,  listado de tecnologías usadas, etc)
 - [x] La estructura del proyecto debe ser adecuada (crear una carpeta para las imágenes, otra para los sketch/mockups/Wireframes). Es importante que contenga SKETCH y MOCKUP/WIREFRAME (debe estar en formato: PDF, PNG o JPG).
-- [ ] El código debe estar pusheado en el repositorio (emplear gh-pages ó publicar la página desde el main), y no debe haber diferencias entre **main** y **gh-pages** (verificar de realizar el Merge).
-- [ ] Publicar la Web empleando GitHubPages
-- [ ] El repositorio no debe contener archivos innecesarios (no debe contener .idea o .vsc, en todo caso emplear **.gitignore**)
+- [x] El código debe estar pusheado en el repositorio (emplear gh-pages ó publicar la página desde el main), y no debe haber diferencias entre **main** y **gh-pages** (verificar de realizar el Merge).
+- [x] Publicar la Web empleando GitHubPages
+- [x] El repositorio no debe contener archivos innecesarios (no debe contener .idea o .vsc, en todo caso emplear **.gitignore**)
 
 ### Sobre el Proyecto General
 - [ ] La página principal debe llamarse index
@@ -37,10 +43,10 @@ Link al sitio: [CRIPTO COUNT](https://ucc-labcompu2.github.io/Proyecto2022-Moral
 - [ ] Los ids de los elementos deben ser unívocos
 
 ### Sobre el CSS
-- [ ] El estilo de los elementos debe establecerse en un archivo CSS (prohibido poner el atributo style a los elementos o emplear estilos incrustados).
-- [ ] El CSS debe contar mínimo con un tipo de cada forma (por Tag, por ID y por clase).
-- [ ] Se debe emplear pseudoclase
-- [ ] No emplear !important
+- [x] El estilo de los elementos debe establecerse en un archivo CSS (prohibido poner el atributo style a los elementos o emplear estilos incrustados).
+- [x] El CSS debe contar mínimo con un tipo de cada forma (por Tag, por ID y por clase).
+- [x] Se debe emplear pseudoclase
+- [x] No emplear !important
 
 ### Sobre Accesibilidad:
 - [ ] Toda imagen debe tener su etiqueta alt
