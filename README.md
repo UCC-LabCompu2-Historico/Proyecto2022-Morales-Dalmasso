@@ -1,5 +1,5 @@
 # CRIPTO COUNT
-Proyecto Lab de Compu II - 2022 - Dalmassso Bautista - Morales Antonio
+
 Link al sitio: [CRIPTO COUNT](https://ucc-labcompu2.github.io/Proyecto2022-Morales-Dalmasso/Principal.html)
 )
 ## Requisitos del Primer Parcial
