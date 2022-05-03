@@ -11,13 +11,14 @@ body{
 .alinear_btc{
     position: absolute;
     left: 800px;
-    bottom: 300px;
+    bottom: 250px;
     width: 50px;
     height: 50px;
 
 }
 .alineal_ethe{
     position: absolute;
+    top: 150px;
     left: 1000px;
     bottom: 400px;
     width: 50px;
@@ -27,6 +28,7 @@ body{
 }
 .alinear_ltc{
     position: absolute;
+    top: 150px;
     left: 550px;
     bottom: 400px;
     width: 50px;
