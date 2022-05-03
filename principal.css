@@ -9,7 +9,7 @@ body{
 }
 .inicio{
     font-family: 'Playfair Display', serif;
-    margin: 0px 250px 0px;
+    margin: 0 250px 0;
 
 }
 a:hover{
@@ -24,8 +24,7 @@ a:active{
 }
 .registro{
     font-family: 'Playfair Display', serif;
-    margin: 15px 250px 0px;
+    margin: 15px 250px 0;
     font-size: 35px;
-    text-decoration-none;
 }
 
