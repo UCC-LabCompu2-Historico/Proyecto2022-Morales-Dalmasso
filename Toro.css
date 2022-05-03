@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url("Wireframes/ToroFondo.jpg");
+}
 
 
 .form-register {
@@ -61,4 +64,14 @@
     margin: 16px 0;
     font-size: 16px;
 }
-
+.boton{
+    left: 250px;
+}
+button{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 40px;
+    background-color: #1f53c5;
+    border: none;
+}
