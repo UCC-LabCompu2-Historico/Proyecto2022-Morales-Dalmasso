@@ -3,67 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <title>CRIPTO COUNT</title>
-    <meta   content="Morales Antonio_Dalmasso Bauti">
-    <meta   content="Web de CRIPTO COUNT" name="descripcion">
-    <meta   content="BTC, LTC, ETH" name="palabras_principales">
-    <link rel="shortcut icon" href="Imagenes/favicon.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="img_logo_url.html" type="text/css">
-    <link rel="stylesheet" href="Fulltermi.css">
-    <link rel="stylesheet" href="Fulltermi.css" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
 
-
+    
+    <link rel="shortcut icon" href="recursos/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="fultermis.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <p class="logo">CRIPTO COUNT</p>
+            <nav>
+                <a href="#explicacion-criptos">¿QUE SON LAS CRIPTOMONEDAS?</a>
+                <a href="#bitcoin">¿QUE ES EL BITCOIN?</a>
+                <a href="#mineria">¿COMO FUNCIONA?</a>
+                <a href="#creadores">CREADORES</a>
+                <a href="datos.html">REGISTRO</a>
+            </nav>
+        </div>
+    </header>
 
+    <section id="hero">
+        <h1>EMPIEZA A MINAR</h1>
+        <form action="mineria.html">
+            <button type="submit">MINAR</button>
+             </form>
+    </section>
 
-<section>
-    <div class="registro">
-        <a href="#">Inicio</a>
-        <a href="datos.html">Registro</a>
-        <a href="pag_principal.html">Perfil</a>
-        <a href="Balance.html">Balance</a>
-        <a href="soporte.html">Soporte</a>
-    </div>
+    
 
+    <section id="explicacion-criptos">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="explicacion">
+                <h3>Qué son las criptomonedas?</h3>
+                <p>Cumple la función de una moneda, y de ahí que se las conozca con ese nombre.
+                    Sin embargo, es algo totalmente digital, que utiliza métodos criptográficos para asegurar sus transacciones financieras,
+                    controlar la creación de nuevas unidades y verificar la transferencia de activos.</p>
+            </div>
+    
+        </div>
+        </section>
 
-<div class="columna">
-    <h1 style="color: aliceblue">Qué es una criptomoneda?</h1>
-    <p style="color: aliceblue">Cumple la función de una moneda, y de ahí que se las conozca con ese nombre.
-        Sin embargo, es algo totalmente digital, que utiliza métodos criptográficos para asegurar sus transacciones financieras,
-        controlar la creación de nuevas unidades y verificar la transferencia de activos.</p>
+    <section id="bitcoin">
+            <div class="container">
+                <div class="img-container"></div>
+                <div class="explicacion">
+                    <h3>Qué es el Bitcoin?</h3>
+                    <p> Bitcoin es una moneda virtual o un medio de intercambio electrónico que sirve
+                        para adquirir productos y servicios como cualquier otra moneda. Pero esta moneda es descentralizada,
+                        es decir que no existe una autoridad o ente de control que sea responsable de su emisión y registro de sus movimientos.</p>
+                </div>
+        
+            </div>
+        </section>
 
-        <p style="color: aliceblue"><span>Bitcoin:</span> una moneda virtual o un medio de intercambio electrónico que sirve
-        para adquirir productos y servicios como cualquier otra moneda. Pero esta moneda es descentralizada,
-        es decir que no existe una autoridad o ente de control que sea responsable de su emisión y registro de sus movimientos.</p>
+     <section id="mineria">
+            <div class="container">
+                <div class="img-container"></div>
+                <div class="explicacion">
+                    <h3>¿Qué es la minería de criptomonedas?</h3>
+                    <p> La minería de criptomonedas es el proceso en el que los mineros utilizan la potencia informática (hash),
+                        para procesar transacciones y obtener recompensas, en este caso criptomonedas. Dicho de otra forma, es el proceso de agregar nuevos
+                        registros de transacciones como bloques a la cadena de bloques. O también, que es el proceso de registrar transacciones de blockchain,
+                        a cambio de una recompensa, entregada en el mismo tipo de criptomoneda que se está minando. Por ejemplo, si se mina Bitcoin la recompensa es
+                        en BTC.</p>
+                </div>
+        
+            </div>
+    </section>
 
-    <h2 style="color: aliceblue">¿Qué es la minería de criptomonedas?</h2>
-    <p style="color: aliceblue">La minería de criptomonedas es el proceso en el que los mineros utilizan la potencia informática (hash),
-        para procesar transacciones y obtener recompensas, en este caso criptomonedas. Dicho de otra forma, es el proceso de agregar nuevos
-        registros de transacciones como bloques a la cadena de bloques. O también, que es el proceso de registrar transacciones de blockchain,
-        a cambio de una recompensa, entregada en el mismo tipo de criptomoneda que se está minando. Por ejemplo, si se mina Bitcoin la recompensa es
-        en BTC.</p>
-
-
-</div>
-    <div class="imagen2">
-        <img src="Imagenes/monedas.jpg" height="350px" width="600px" alt="monedas">
-    </div>
-
-    <div class="Toro_">
-
-        <img src="Imagenes/Toro_pagina.jpg" height="350px" width="700px" alt="toro">
-    </div>
-
-
-
-</section>
+    <section id="creadores">
+        <div class="img-container">
+            <h2>Creadores: <br>Antonio Morales y Bautista Dalmasso</h2>
+            <p>Se pueden contactar : </p> 
+            <p>2219268@ucc.edu.ar</p>
+            <p>2223302@ucc.edu.ar</p>
+        </div>
+    </section>
 
 </body>
-
 </html>

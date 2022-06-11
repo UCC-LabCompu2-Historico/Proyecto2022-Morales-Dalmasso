@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url("Wireframes/TORO2.jpg");
+    background-image: url("recursos/TORO2.jpg");
 }
 
 
@@ -67,6 +67,7 @@ body{
 .boton{
     left: 250px;
 }
+
 button{
     display: block;
     margin: auto;
@@ -74,4 +75,4 @@ button{
     height: 40px;
     background-color: #1f53c5;
     border: none;
-}
+     }
