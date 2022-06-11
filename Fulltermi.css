@@ -37,7 +37,9 @@ body{
 }
 .registro2{
     font-family: 'Playfair Display', serif;
-
+}
+.registro3{
+    font-family: 'Playfair Display', serif;
 }
 a:hover{
     font-size: 1.4em;
@@ -109,5 +111,6 @@ a:active{
     height: 200px;
 
 }
+
 
 

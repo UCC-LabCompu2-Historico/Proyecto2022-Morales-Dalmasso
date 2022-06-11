@@ -13,8 +13,11 @@
         }
     </style>
     <link rel="shortcut icon" href="Imagenes/favicon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script type="text/javascript" src="animacion.js"></script>
+
 </head>
-<body>
+<body onload="dibujarCirculo()">
 <section>
     <div class="registro2">
         <p>
@@ -28,9 +31,13 @@
             <a href="soporte.html">Soporte</a>
         </p>
         <p>
-            <a href="pag_principa.html">Perfil</a>
+            <a href="pag_principal.html">Perfil</a>
         </p>
+
     </div>
 </section>
+<canvas id="myCanvas" width="800px" height="600px">
+    Grafico de torta.
+</canvas>
 </body>
 </html>
