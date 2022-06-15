@@ -1,7 +1,7 @@
 /**
  * Dibujo de circulos
  * Nombre de la función GrafCripto
- * @param {GrafCripto} ParámetroB - Declaracion de la funcion
+ * @param {GrafCripto}  - Declaracion de la funcion
  * @param  finalAngle  -   Variable Contador de la secuencia circular
  * Tamaño de letra en canvas
  */
@@ -46,7 +46,7 @@ function GrafCripto(){
         finalAngle += 0.01;
         context.beginPath();
         context.arc(620,200,100,0,Math.PI * finalAngle);
-        context.strokeStyle = "#14174b";
+        context.strokeStyle = "#cb1c3c";
         context.stroke();
     },1000 / 2)
     setInterval(function (){
@@ -77,7 +77,7 @@ function GrafCripto(){
 /**
  * Boton para realizar la mineria nuevamente
  * Nombre de la función reclamarcripto
- * @param {reclamarcripto} ParámetroB - Declaracion de la funcion
+ * @param {reclamarcripto}  - Declaracion de la funcion
  * Reclama recompensas y vuelve a generar ganancias
  */
 
@@ -89,6 +89,4 @@ async function reclamarcripto(){
             icon: "success",
             confirmButtonText: '<a href="mineria.html">Empecemos otra vez!</a>'
         });
-
-
 }
