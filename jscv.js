@@ -43,7 +43,7 @@ function GrafCripto(){
     },100 / 2)
 
     setInterval(function (){
-        finalAngle += 0.01;
+        finalAngle += 0.001;
         context.beginPath();
         context.arc(620,200,100,0,Math.PI * finalAngle);
         context.strokeStyle = "#cb1c3c";
@@ -89,4 +89,5 @@ async function reclamarcripto(){
             icon: "success",
             confirmButtonText: '<a href="mineria.html">Empecemos otra vez!</a>'
         });
+
 }
