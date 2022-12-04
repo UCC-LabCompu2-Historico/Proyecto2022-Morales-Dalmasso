@@ -3,6 +3,10 @@ body{
     background-size: cover;
 }
 
+#principal{
+    color: white;
+}
+
 canvas{
     background-color: #000000;
     display: block;
