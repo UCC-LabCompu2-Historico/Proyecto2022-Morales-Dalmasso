@@ -91,3 +91,31 @@ async function reclamarcripto(){
         });
 
 }
+
+
+function registristrarse(){
+    let nombre, apellido, correo, password;
+
+    //Creo 4 variables...Y luego debo obtener el valor de los campos, y guardarlo en variables
+    nombre = document.getElementById("nombres").value;
+    //hacer lo mismo con el resto de las variables
+
+    //Si el nombre esta vacio, debe visualizarse un mensaje de error
+    if(!nombre){
+        alert("Debe completar el nombre para continuar!")
+    }else{
+        localStorage.setItem("storageNombre", nombre);
+    }
+
+    if(nombre){ //y apellido y correo y pass están completos
+        location.href="mineria.html";
+    }
+
+}
+
+
+function cargarDatos(){
+    let nombre, apellido, correo, password;
+    nombre = localStorage.getItem("storageNombre");
+    document.getElementById("nombre").innerHTML = nombre;
+}
