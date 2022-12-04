@@ -3,7 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background: black;
+    background-image: url("Wireframe/TORO2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
 body{
     background-image: url("recursos/TORO2.jpg");
 }

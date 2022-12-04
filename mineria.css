@@ -8,7 +8,7 @@ canvas{
     display: block;
     margin: 70px auto;
 }
-
+canvas{border:solid;}
 
 #boton{
     display: flex;
