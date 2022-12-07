@@ -83,12 +83,12 @@ function GrafCripto(){
 
 async function reclamarcripto(){
 
-        await Swal.fire({
-            title:"RECLAMASTE TUS CRIPTOMONEDAS",
-            text:"Seran enviadas a tu Wallet automaticamente",
-            icon: "success",
-            confirmButtonText: '<a href="mineria.html">Empecemos otra vez!</a>'
-        });
+    await Swal.fire({
+        title:"RECLAMASTE TUS CRIPTOMONEDAS",
+        text:"Seran enviadas a tu Wallet automaticamente",
+        icon: "success",
+        confirmButtonText: '<a href="mineria.html">Empecemos otra vez!</a>'
+    });
 
 }
 
