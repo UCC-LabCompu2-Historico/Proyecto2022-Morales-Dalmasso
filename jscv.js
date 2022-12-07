@@ -98,24 +98,41 @@ function registristrarse(){
 
     //Creo 4 variables...Y luego debo obtener el valor de los campos, y guardarlo en variables
     nombre = document.getElementById("nombres").value;
+    apellido =document.getElementById("apellido").value;
+    correo =document.getElementById("correo").value;
+    password =document.getElementById("password").value;
     //hacer lo mismo con el resto de las variables
 
     //Si el nombre esta vacio, debe visualizarse un mensaje de error
     if(!nombre){
         alert("Debe completar el nombre para continuar!")
-    }else{
+    }else if(!apellido){
+        alert("Debe completar el apellido para continuar!")
+    }else if(!correo){
+        alert("Debe completar el correo para continuar!")
+    }else if(!password){
+        alert("Debe completar el password para continuar!")
+    }
+    else{
         localStorage.setItem("storageNombre", nombre);
+        localStorage.setItem("storageApellido", apellido);
+        localStorage.setItem("storageCorreo", correo);
+        localStorage.setItem("storagePassword", password);
     }
 
-    if(nombre){ //y apellido y correo y pass están completos
+    if(nombre || apellido || correo || password){ //y apellido y correo y pass están completos
         location.href="mineria.html";
     }
 
 }
-
-
-function cargarDatos(){
+function cargarDatos() {
     let nombre, apellido, correo, password;
     nombre = localStorage.getItem("storageNombre");
     document.getElementById("nombre").innerHTML = nombre;
+    apellido = localStorage.getItem("storageApellido");
+    document.getElementById("apellido").innerHTML =apellido;
+    correo = localStorage.getItem("storageCorreo");
+    document.getElementById("correo").innerHTML =correo;
+    password =localStorage.getItem("storagePassword");
+    document.getElementById("password").innerHTML =password;
 }
