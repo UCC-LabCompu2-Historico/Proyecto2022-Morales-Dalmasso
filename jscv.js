@@ -31,7 +31,7 @@ function GrafCripto(){
         finalAngle += 0.01;
         context.beginPath();
         context.arc(400,200,100,0,Math.PI * finalAngle);
-        context.strokeStyle = "#383636";
+        context.strokeStyle = "#008000";
         context.stroke();
     },1000 / 5)
     setInterval(function (){
@@ -79,6 +79,8 @@ function GrafCripto(){
  * Nombre de la función reclamarcripto
  * @param {reclamarcripto}  - Declaracion de la funcion
  * Reclama recompensas y vuelve a generar ganancias
+ * @param {registristrarse} - Declaracion de la funcion
+ * @param {cargarDatos} - Declaracion de la funcionn
  */
 
 async function reclamarcripto(){

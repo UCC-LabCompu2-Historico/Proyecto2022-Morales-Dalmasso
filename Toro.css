@@ -5,7 +5,7 @@
 }
 body{
     background: black;
-    background-image: url("Wireframe/TORO2.jpg");
+
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
@@ -82,3 +82,4 @@ button{
     background-color: #1f53c5;
     border: none;
      }
+

@@ -5,9 +5,14 @@ Link al sitio: [CRIPTO COUNT](https://ucc-labcompu2.github.io/Proyecto2022-Moral
 ## Autores
   * Morales Antonio
   * Dalmasso Bauti
+
+## Descripcion
+Esta es una pagina web que brinda informacion general sobre el mundo de la mineria de criptomonedas.
+El usuario se puede registrar a la pagina para poder empezar a minar las criptomonedas disponibles (BITCOIN, LITCOIN Y ETHERIUM). Una vez minadas, el usuario puede retirarlas y mandarlas directamente a su wallet.
 ## Tecnologias Usadas
 * HTML5
 * CSS
+* JAVASCRIPT
 ## Requisitos del Primer Parcial
 
 ### Sobre el Repositorio
