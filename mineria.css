@@ -1,20 +1,23 @@
-body{
+body {
     background-image: url("recursos/Btc_1.gif");
     background-size: cover;
 }
 
-#principal{
+#principal {
     color: white;
 }
 
-canvas{
+canvas {
     background-color: #000000;
     display: block;
     margin: 70px auto;
 }
-canvas{border:solid;}
 
-#boton{
+canvas {
+    border: solid;
+}
+
+#boton {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,36 +25,36 @@ canvas{border:solid;}
     flex-direction: column;
 }
 
-.boton{
+.boton {
     text-align: center;
     width: 95%;
     font-size: 1.5em;
     font-weight: bold;
     padding: 10px 30px;
     border-radius: 10px;
-    border: 2px solid rgba(0,0,0,0.5);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     color: white;
     background-color: blue;
 }
 
-.boton:hover{
+.boton:hover {
     background-color: rgb(50, 35, 184);
     cursor: pointer;
 }
 
-button{
+button {
     font-size: 1.5em;
     font-weight: bold;
     padding: 10px 30px;
     border-radius: 10px;
-    border: 2px solid rgba(0,0,0,0.5);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     color: white;
     background-color: blue;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(50, 35, 184);
     cursor: pointer;
 }
