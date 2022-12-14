@@ -2,7 +2,7 @@
  * Dibujo de circulos
  * Nombre de la función GrafCripto
  * @param {GrafCripto}  - Declaracion de la funcion
- * @param  finalAngle  -   Variable Contador de la secuencia circular
+ * @param  finalAngle -   Variable Contador de la secuencia circular
  * Tamaño de letra en canvas
  */
 function GrafCripto() {
@@ -17,7 +17,7 @@ function GrafCripto() {
         context.lineWidth = 2;
         context.strokeStyle = "#faf7f7";
         context.stroke();
-    }, 100 / 4)
+    })
 
     setInterval(function () {
         finalAngle += 0.001;
@@ -40,7 +40,7 @@ function GrafCripto() {
         context.lineWidth = 2;
         context.strokeStyle = "#faf7f7";
         context.stroke();
-    }, 100 / 2)
+    })
 
     setInterval(function () {
         finalAngle += 0.001;
@@ -48,14 +48,14 @@ function GrafCripto() {
         context.arc(620, 200, 100, 0, Math.PI * finalAngle);
         context.strokeStyle = "#cb1c3c";
         context.stroke();
-    }, 1000 / 2)
+    }, 1000 / 1)
     setInterval(function () {
         context.beginPath();
         context.arc(620, 200, 96, 0, Math.PI * 2);
         context.lineWidth = 2;
         context.strokeStyle = "#faf7f7";
         context.stroke();
-    }, 100 / 2)
+    })
 
     context.font = "40px American Catain";
     context.fillStyle = "silver";
@@ -80,11 +80,9 @@ function GrafCripto() {
  * Nombre de la función reclamarcripto
  * @param {reclamarcripto}  - Declaracion de la funcion
  * Reclama recompensas y vuelve a generar ganancias
- * @param {registristrarse} - Declaracion de la funcion
- * @param {cargarDatos} - Declaracion de la funcionn
  */
 
-async function reclamarcripto() {
+async function reclamarcripto() {        //async permite estructurar una funcion asincronica sin bloqueo
 
     await Swal.fire({
         title: "RECLAMASTE TUS CRIPTOMONEDAS",
@@ -95,6 +93,10 @@ async function reclamarcripto() {
 
 }
 
+/**
+ * Rellena el formulario con la informacion del usuario
+ * @param {registristrarse} - Declaracion de la funcion
+ */
 
 function registristrarse() {
     let nombre, apellido, correo, password;
@@ -116,7 +118,7 @@ function registristrarse() {
     } else if (!password) {
         alert("Debe completar el password para continuar!")
     } else {
-        localStorage.setItem("storageNombre", nombre);
+        localStorage.setItem("storageNombre", nombre);      //setitem crea una clave, en este caso storageNombre
         localStorage.setItem("storageApellido", apellido);
         localStorage.setItem("storageCorreo", correo);
         localStorage.setItem("storagePassword", password);
@@ -128,9 +130,14 @@ function registristrarse() {
 
 }
 
+/**
+ * Muestro los datos que ingreso el usuario
+ * @param {cargarDatos} - Declaracion de la funcion
+ *
+ */
 function cargarDatos() {
     let nombre, apellido, correo, password;
-    nombre = localStorage.getItem("storageNombre");
+    nombre = localStorage.getItem("storageNombre");       //getitem devuelve el alor creado por setitem
     document.getElementById("nombre").innerHTML = nombre;
     apellido = localStorage.getItem("storageApellido");
     document.getElementById("apellido").innerHTML = apellido;
