@@ -1,6 +1,6 @@
 # CRIPTO COUNT
 
-Link al sitio: [CRIPTO COUNT](https://ucc-labcompu2.github.io/Proyecto2022-Morales-Dalmasso/index.html)
+Link al sitio: [CRIPTO COUNT](https://ucc-labcompu2-historico.github.io/Proyecto2022-Morales-Dalmasso/index.html)
 
 ## Autores
   * Morales Antonio
